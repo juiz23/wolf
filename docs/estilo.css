@@ -3,5 +3,10 @@
         color: rgb(0, 0, 0);
         background-color: rgba(18, 18, 238, 0.664);
       }
+ 
+     
 
+        p {border: color-mix(in srgb, color percentage, color percentage);
       
+        }
+   
