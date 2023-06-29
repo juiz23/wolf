@@ -1,7 +1,23 @@
-
-p {border: color-mix(in srgb, color percentage, color percentage);
-      
-}
-     
-
-   
+p {
+    margin: 0;
+    text-indent: 3ch;
+  }
+  
+  p.caldeirao {
+     text-indent: 50;
+     display: inline;
+  }
+  p.caldeirao + p.caldeirao::before {
+    content: " ¶ ";
+  }
+  .center {
+    margin: auto;
+    background: lime;
+    width: 66%;
+  }
+  
+  .outside {
+    margin: 3rem 0 0 -3rem;
+    background: cyan;
+    width: 66%;
+  }
